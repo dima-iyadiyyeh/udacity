@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+## read the code from top to end
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -178,6 +179,8 @@ def user_stats(df):
             break
         else:
             print("Invalid input. Please enter 'yes' or 'no'.")
+
+     ## say hi       
 def main():
     while True:
         city, month, day = get_filters()
